@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins",sans-serif;
+    
+}
+
+
+:root{
+    --green-color:#b0b536;
+    --gray-color: #d4dbe0;
+    --secondary: #6c757d;
+    --light: #f8f9fa;
+}
+.navbar{
+    background-color: var(--light);
+}
+
+    
+.navbar .navbar-nav .nav-link{
+    color:black;
+    font-size: 20px;
+    text-shadow: 2px 2px var(--gray-color);
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color:var(--green-color);
+}
+.navbar .navbar-toggler{
+    color: var(--green-color);
+    font-size: 40px;
+    border-color: black;
+}
+.search{
+    color: var(--green-color);
+    border-left: 3px solid var(--green-color);
+}
+.search:hover{
+    color: var(--green-color);
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header .btn{
+    color: var(--gray-color);
+    
+}
+.header.home{
+    background-image: url(../image/images/banner-03.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;   
+}
+.header.vegetable{
+    background-image: url(../image/images/banner-02.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;  
+}
+.header.fruits{
+    background-image: url(../image/images/banner-01.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;     
+}
+.header.gallery{
+    background-image: url(../image/images/all-bg-title.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;  
+}
+.first{
+    position: relative;
+}
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,30%);
+    text-shadow: 2px 2px black;  
+
+}
+.main-title h1{
+    font-size: 45px;
+}
+.main-title p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.product{
+    background-color: var(--gray-color);
+}
+.product-menu{
+    margin: 30px auto;
+}
+.product-item img{
+    
+    margin-bottom: 30px;
+}
+.product-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: 1px solid var(--green-color);
+    cursor: pointer;
+    background-color: var(--green-color);
+    color: var(--light);
+}
+.product-menu ul li.active{
+    background-color: #000000;
+}
+.product-menu ul li:hover{
+    background-color: #000000;
+}
+
+
+
+
+.blog h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.card-title{
+    background-color: var(--gray-color);
+}
+.main-title .btn{
+    background-color: var(--green-color);
+    font-size: 20px;
+}
+.main-title .btn:hover{
+    background-color:black;
+    color: white;
+}
+.sale{
+    right: 0;
+    top: 0;
+    background-color: #b0b536;
+    font-size: 16px;
+}
+.cart{
+    left: 0;
+    bottom:30px;
+    cursor: pointer;
+    background-color: #b0b536;   
+}
+.why{
+    background-color: var(--gray-color);
+    margin-top: -40px;
+}
+.cart:hover{
+    color: white;
+    background-color: black;
+}
+.filter-button-group{
+    display: inline-block;
+}
+.filter-button-group button{
+    background: #b0b435;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 18px;
+}
+.filter-button-group button.active{
+    background: #000000;
+}
+
+.footer{
+    background-color: #000000;
+}
+.footer .line{
+    height: 2px;
+    width: 60%;
+    background-color: var(--green-color);
+}
+
+.form-group i{
+    right: 15px;
+    color: #6c757d;
+    top: 15px;
+}
+.newsletter-box button{
+    background-color: var(--green-color);
+    color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	
+}
+.newsletter-box button:hover{
+    background-color: #000000;
+    color: white;
+    border: 2px solid var(--green-color);
+}
+.footer-top-box ul{
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    
+}
+.footer-top-box ul li{
+    border: 1px solid white;
+}
+.footer-top-box ul li a {
+    color: #ffffff;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    line-height: 32px;
+}
+.footer-top-box ul li a:hover {
+    color: #b0b435;
+    border-color: #b0b435;
+}
+.footer hr{
+    border-top: 2px solid var(--gray-color);
+}
+.footer-end .end{
+    width: 100%;
+    height: 3px;
+    background-color: var(--green-color);
+}
+.footer-info .end{
+    width: 100%;
+    height: 3px;
+    background-color: var(--green-color);
+}
+.footer-info ul li{
+    list-style: none;
+}
+.footer-info ul li a{
+text-decoration: none;
+color: #ffffff; 
+}
+.footer-info ul li a:hover{
+    color: var(--green-color);
+    margin-left: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-contact .end{
+    width: 100%;
+    height: 3px;
+    background-color: var(--green-color);
+}
+.footer-contact p{
+    margin-left: 25px;
+}
+.footer-contact i{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.phone a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+} 
+.phone a:hover{
+    color: var(--green-color);
+} 
+.copy-right{
+    text-align: center;
+}
+.copy-right a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff; 
+}
+.copy-right a:hover{
+    color: var(--green-color); 
+}
+.contact h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.green a{  
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #b0b435;
+}
+.green a:hover{
+    background-color: #6c757d;
+    color: #000000;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact{
+    background-color: var(--gray-color);
+}
+.contact-info p{
+    margin-left: 25px;
+}
+.contact-info i{
+    margin-right: 5px;
+    margin-top: 5px;
+    color: var(--green-color);
+}
+.contact-info .phone a{
+    list-style: none;
+    color: #6c757d;
+}
+.contact-info .phone a:hover{
+    color: var(--green-color);
+}
+.contact-info{
+    background-image: url(../image/images/contact-bg.jpg);
+}
+
+
+
+
+
